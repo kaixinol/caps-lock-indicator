@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "caps-lock-indicator"
+version = "0.1.0"
+description = ""
+authors = ["kaesinol <keiplyer@gmail.com>"]
+readme = "README.md"
+packages = [{include = "caps_lock_indicator"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyqt6 = "^6.5.2"
+pynput = "^1.7.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
